@@ -1,0 +1,50 @@
+README
+--------------------------------------------
+BlastHtmlEmbed Parser v. 0.1
+(c) 2007 Jacob Israel Cervantes Luevano
+http://www.langebio.cinvestav.mx
+http://www.langebio.cinvestav.mx/bioinformatica/jacob
+Langebio Cinvestav, Dept. of Bioinformatics 
+--------------------------------------------
+
+TABLE OF CONTENTS
+I.   INTRODUCTION
+II.  REQUIRIMENTS
+III. INSTRUCTIONS
+IV.  NOTES
+
+
+Introduction
+============
+BlastHtmlEmbed Parser is a module for the web interface called Query Sequence Visualizer and allows you to parse blast reports for later viewing using a web browser
+
+Requiriments
+============
+
+ - Mono Runtime 1.9.1 and Mono C# Compilers(for.NET 1.1 and .NET 2.0)
+ * Optionally you can use the Microsoft.NET C# Compilers  
+
+This program runs on Windows, Linux, Mac OS X , iPhone and Android.
+
+No Makefile included, sorry.
+
+Instructions
+============
+
+to compile follow this steps:
+
+a) compile BlastHtmlEmbedParser.cs as executable  : 
+   $gmcs BlastHtmlEmbedParser.cs -out:BlastHtmlEmbedParser
+   
+to run:
+
+a) mono BlastHtmlEmbedParser blast_report.html
+
+Notes: 
+ - BlastHtmlEmbedParser is not finished 
+ - you can use a relative or absolute paths to the parameter.
+
+Futures:
+ - Makefile or autotools in next versions.
+ 
+by jcervantes at ira period cinvestav period mx , 2007, Guanajuato Mexico.
